@@ -8,13 +8,13 @@
 
 ############################################################
 # Domain settings
-DOMAIN=example.com
-EMAIL=letsencrypt@${DOMAIN}
+DOMAIN=$DOMAIN
+EMAIL=$EMAIL
 ############################################################
 
 ############################################################
 # GoDaddy API Credentials
-GODADDY_API_KEY=""
-GODADDY_API_SECRET=""
+GODADDY_API_KEY="$GODADDY_API_KEY"
+GODADDY_API_SECRET="$GODADDY_API_SECRET"
 GODADDY_URL="https://api.godaddy.com/"
 ############################################################
